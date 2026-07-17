@@ -11,3 +11,8 @@ Metrics we are using Net Flow, Client Count, Account Count
 - Found and fixed: amount sign doesn't match txn_type (had to derive direction manually)
 - Found and resolved: two advisors both named "David Wilson" (ids 8, 13) — different people, not a data error, but never group/join on advisor_name
 - Gotcha: combining verified metrics into one bigger query silently reintroduced the amount-sign bug — Claude Code doesn't remember earlier validated logic unless you explicitly carry it forward
+
+---
+
+Session 2 notes
+stg means staging

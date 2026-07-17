@@ -72,3 +72,18 @@ Happy modeling!
 [0m12:12:47.961206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA9A4222C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA9A77E570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA9A69F570>]}
 [0m12:12:47.961609 [debug] [MainThread]: Flushing usage events
 [0m12:12:48.498462 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:46:30.413995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002007C8B06E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020079D74A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002007EE3F890>]}
+
+
+============================== 12:46:30.418024 | d357fda8-40f9-4210-8375-e9dc08d2a432 ==============================
+[0m12:46:30.418024 [info ] [MainThread]: Running with dbt=1.12.0
+[0m12:46:30.418592 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\rmont\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run --select stg_advisors', 'log_path': 'logs'}
+[0m12:46:30.419050 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\rmont\Desktop\FinanceBIProject\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:46:30.419872 [debug] [MainThread]: Command `dbt run` failed at 12:46:30.419761 after 0.13 seconds
+[0m12:46:30.420200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002007EDA9CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002007EEF4050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002007EE749E0>]}
+[0m12:46:30.420541 [debug] [MainThread]: Flushing usage events
+[0m12:46:30.936422 [debug] [MainThread]: An error was encountered while trying to flush usage events
