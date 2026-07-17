@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: seed_data
+    schema: main
+    tables:
+      - name: advisors
+      - name: clients
+      - name: accounts
+      - name: transactions

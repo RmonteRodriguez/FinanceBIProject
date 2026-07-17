@@ -3,7 +3,9 @@
     "allow": [
       "Bash(python -c ' *)",
       "PowerShell(Get-Command python, py -ErrorAction SilentlyContinue)",
-      "PowerShell(py inspect_db.py)"
+      "PowerShell(py inspect_db.py)",
+      "Bash(py -c ' *)",
+      "Bash(py verify_seed_counts.py)"
     ]
   }
 }
