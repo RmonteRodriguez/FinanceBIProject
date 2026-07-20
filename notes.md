@@ -14,5 +14,13 @@ Metrics we are using Net Flow, Client Count, Account Count
 
 ---
 
-Session 2 notes
-stg means staging
+## Session 2 notes
+
+- stg means staging
+
+---
+
+## Session 3 notes
+
+- Upper/Lower works exactly like TOUPPER/TOLOWER()
+-
