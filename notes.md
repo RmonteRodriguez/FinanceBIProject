@@ -24,3 +24,6 @@ Metrics we are using Net Flow, Client Count, Account Count
 
 - Upper/Lower works exactly like TOUPPER/TOLOWER()
 - Trim removes extra spaces or anything from the value
+- All 4 staging models complete + verified: stg_advisors, stg_clients, stg_accounts, stg_transactions
+- Found real dbt error: amount was auto-typed as DOUBLE by dbt seed (not TEXT like SQLite version) — had to drop the TRIM/NULLIF text-handling logic since it no longer applied
+- Next: mart layer (dim_clients, fact_transactions, mart_advisor_performance), then Streamlit app
