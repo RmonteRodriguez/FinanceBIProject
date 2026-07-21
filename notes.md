@@ -23,4 +23,4 @@ Metrics we are using Net Flow, Client Count, Account Count
 ## Session 3 notes
 
 - Upper/Lower works exactly like TOUPPER/TOLOWER()
--
+- Trim removes extra spaces or anything from the value
